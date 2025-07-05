@@ -1,6 +1,8 @@
 import bank_module
 import bank_ui as ui
-customers_database_path = 'OOP_bank/customers_database.json'
+import os
+base_path = os.path.dirname(__file__)
+customers_database_path = os.path.join(base_path, 'json', 'customers_database.json')
 database_manager = bank_module.DatabaseManager(customers_database_path)
 database_list = database_manager.load_database()
 bank = bank_module.Bank(database_manager, database_list)
