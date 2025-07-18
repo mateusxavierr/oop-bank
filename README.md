@@ -1,6 +1,6 @@
 # OOP Bank System
 
-This is a simple Object-Oriented Programming (OOP) bank system developed in Python. It simulates basic banking operations, following clean architecture principles and incorporating key OOP concepts such as abstraction, encapsulation, inheritance, and polymorphism.
+This is a simple Object-Oriented Programming (OOP) bank system developed in Python. It simulates basic banking operations, following clean architecture principles and incorporating key OOP concepts such as abstraction, encapsulation, inheritance and polymorphism.
 
 ## 🧱 Project Structure
 
